@@ -7,19 +7,24 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
 }
 
-#title {
-  color: white;
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  color: #fff;
   background-color: #ff4c69;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 .header-1 {
   font-family: "Montserrat-Black";
   font-size: 4rem;
   line-height: 1.5;
-}
-
-.container-fluid {
-  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -52,6 +57,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Title Image */
 .title-image {
   transform: rotate(25deg);
@@ -60,14 +70,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Features */
 #features {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
+  text-align: center;
 }
 
 .feature-box {
   color: #ef8172;
-  text-align: center;
   margin: 10px 115px 10px;
 }
 
@@ -77,21 +85,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .feature-p {
   color: #8f8f8f;
-  text-align: center;
 }
 
 .header-3 {
   font-family: "Montserrat-Bold";
   font-weight: bolder;
-  text-align: center;
 }
 
 /* Testimonials */
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
 
 .header-2 {
@@ -142,9 +146,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Call to Action and Footer */
 #cta {
-  color: white;
-  background-color: #ff4c69;
-  padding: 7% 15%;
   text-align: center;
 }
 
@@ -152,11 +153,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   font-weight: bolder;
-  color: #fff;
 }
 
 #footer {
-  padding: 7% 15%;
   text-align: center;
 }
 
